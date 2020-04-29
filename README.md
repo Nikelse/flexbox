@@ -1,2 +1,2 @@
 # flexbox
-Felx demo test of use
+Css Flex demo test of use
