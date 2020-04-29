@@ -1,0 +1,28 @@
+.container {
+  /* activation de flex sur le containeur */
+  display: flex;
+  /* axe principal aligné en ligne */
+  flex-direction: row;
+  /* passage à la ligne si les élements sont trops grands pour etres affichés en une seule ligne */ 
+  flex-wrap: wrap;
+  
+  border: 2px solid #f00;
+  padding: 1em;
+
+}
+
+.boite {
+  /* application du flex en fonction de son containeur parent */
+  flex: auto;
+  
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid #333;
+  border-radius: 4px / 4px;
+}
+
+img.adaptative {
+  /* largeur de l'image par rapport à la boite */
+  width: 100%;
+}
